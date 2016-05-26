@@ -36,9 +36,10 @@ System.register(['angular2/core', 'angular2/router'], function(exports_1, contex
                     core_1.Component({
                         templateUrl: 'app/products/product-detail.component.html'
                     }), 
-                    __metadata('design:paramtypes', [router_1.RouteParams, router_1.Router])
+                    __metadata('design:paramtypes', [(typeof (_a = typeof router_1.RouteParams !== 'undefined' && router_1.RouteParams) === 'function' && _a) || Object, (typeof (_b = typeof router_1.Router !== 'undefined' && router_1.Router) === 'function' && _b) || Object])
                 ], ProductDetailComponent);
                 return ProductDetailComponent;
+                var _a, _b;
             }());
             exports_1("ProductDetailComponent", ProductDetailComponent);
         }
